@@ -1,0 +1,14 @@
+git init = initialize git repo in current directory
+To initiliaze git repository, make sure you are in the directory you want to be in
+git add "file" = add "file" to the staging area of the repository
+Git workflow: working directory → staging area → repository
+Git: HEAD refers to point you are currently looking at
+git commit -m "message" = to commit changes to repository; "message" to denote changes
+git branch “name” = creates branch “name”; git branch = shows list of all branches
+git checkout “branch” = to switch to “branch”
+git remote -v = verbose, more detailed info on remotes
+git push -u origin master = origin is remote, master is branch, -u means you don't have to type your remote and branch before pushing next time
+Once changes in your branch are committed locally, push the branch to GitHub/remote repo, create a	pull request to merge the branch with master, then delete the branch as it's no longer needed.	Pull master from GitHub/remote to sync local directory with the remote master. Also delete the	unnecessary branch from local repo.
+git pull = to pull master branch from remote to sync local master with remote
+git branch -d “branch” = deletes branch
+git clone “network address/repo” = to create copy of repo to local directory

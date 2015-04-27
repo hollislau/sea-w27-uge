@@ -1,0 +1,24 @@
+cd = change directory
+ls = list directory contents
+~ = home directory
+mkdir = create directory
+mv = move file or directory
+"a" | "b" = command "b" uses output from command "a" as input
+pwd = /home/hollislau
+/ = root
+flag = -a, -t, etc., can combine flags (-al, -lt, etc.)
+ls -t (mod time), -l (long), -r (reverse)
+touch = to create a file or update its timestamp (opens, modifies, closes in one step)
+man “command” = manual for the command
+\ = allows for space (\ “space”)
+Linux is case sensitive; in OSX and Windows, directories are case insensitive, commands are case sensitive
+cd ../.. = moves up two levels instead of one, can chain them together (i.e. ../”other directory”)
+Hitting Tab twice supplies options if multiples exist
+. = current directory
+history 10 = last 10 commands entered; history | less = can scroll through history, doesn't print to console
+less = pressing space moves one page at a time
+> = output redirection operator; >> = allows to overwrite file if exists
+echo “” = prints “”
+subl = opens Sublime Text
+cat = writes contents of file to terminal
+head = prints first 10 commands entered; -n “number” = specifies number of lines printed
